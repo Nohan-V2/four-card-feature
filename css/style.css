@@ -31,7 +31,6 @@ body {
 
 div {
     background-color: var(--div);
-    margin: 30px;
     padding: 32px;
     border-top: 4px solid;
     border-radius: 8px;
@@ -43,35 +42,36 @@ div {
 }
 
 main {
-    width: 1110px;
+    position: relative;
+    width: 80%;
     height: 530px;
 }
 
 .supervisor {
     position: absolute;
-    top: 36%;
-    left: 18%;
+    top: 20%;
+    left: 14%;
     border-color: var(--cyan);
 }
 
 .team-builder {
     position: absolute;
-    top: 19%;
+    top: -8%;
     left: 39%;
     border-color: var(--red);
 }
 
 .karma {
     position: absolute;
-    bottom: 19%;
+    top: 48%;
     left: 39%;
     border-color: var(--yellow);
 }
 
 .calculator {
     position: absolute;
-    top: 36%;
-    right: 18%;
+    top: 20%;
+    right: 13%;
     border-color: var(--blue);
 }
 
